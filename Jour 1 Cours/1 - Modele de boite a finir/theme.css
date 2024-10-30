@@ -1,0 +1,69 @@
+
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;/* Passer de 16px à 10px */
+}
+
+/* Le corps du document */
+
+body {
+    font-size: 16px;/* On remet à 16px qui est la valeur par défaut */
+    margin: 0;
+}
+
+/* Le titre principal d'un flux */
+
+
+/* Le titre de second niveau  */
+
+
+/* Le titre de troisème niveau */
+
+
+/* Les liens */
+
+
+
+/* *****************************************************************
+MAIN LAYOUT
+***************************************************************** */
+
+/* L'entête de la page */
+
+
+
+
+/* Le pied de page */
+
+
+
+/* *****************************************************************
+VARIOUS
+***************************************************************** */
+
+/* Utile pour mettre en évidence un parent */
+
+.box {
+    background-color: #CCC;
+}
+.box1 {
+    
+}
+.box2 {
+    
+}
+.box3 {
+    
+}
+.box4 {
+    
+}
+.box5 {
+    
+}

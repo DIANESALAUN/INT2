@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+	<meta name="description" content="Les tables">
+    <title>Les tables</title>
+    <link rel="stylesheet" href="css/common-v2.css" type="text/css" />
+    <link rel="stylesheet" href="css/theme.css" type="text/css" />
+</head>
+<body>
+    <header class="header">
+        <h1>Les tables</h1>
+        <p>Faire des tableaux simples et complexes</p>
+    </header>
+    
+    <main class="container">
+        
+        <h2>Une table simple</h2>
+       <table>
+           <tr>
+             <th>Entête 1</th> 
+             <th>Entête 2</th>
+             <th>Entête 3</th>
+             <th>Entête 4</th>
+           </tr>
+           
+           <tr>
+             <th>Case 1</th> 
+             <th>Case 2</th>
+             <th>Case 3</th>
+             <th>Case 4</th>
+           </tr>
+           
+           <tr>
+             <th>Case 5</th> 
+             <th>Case 6</th>
+             <th>Case 7</th>
+             <th>Case 8</th>
+           </tr>
+       </table> 
+       
+       <h2>La même table avec des cases fusionnées</h2>
+       <table>
+           <thead>
+              <tr>
+                 <th>Entête 1</th> 
+                 <th>Entête 2</th>
+                 <th>Entête 3</th>
+                 <th>Entête 4</th>
+              </tr>
+           </thead>
+           <tbody>
+              <tr>
+                 <td colspan="2">Case 1</td> 
+                 <td colspan="2">Case 2</td>
+                 <td rowspan="2">Case 4</td>
+              </tr>
+              <tr>
+                  <td>Case 5</td>
+                  <td>Case 7</td>
+              </tr>
+           </tbody>
+       </table>
+       
+       <h2>Une table plus complexe</h2>
+       
+       <table>
+           <thead>
+           <tr>
+             <td rowspan="6">Régions françaises</td>
+           </tr>
+        </thead>
+           
+        <tbody>
+           <tr>
+             <th>Auvergne-Rhône-Alpe</th> 
+             <th>FR-ARA</th>
+             <th>84</th>
+             <th>69 711</th>
+             <th>8 032 377</th>
+             <th>4030</th>
+           </tr>
+        
+           <tr>
+             <th>Bourgogne-Franche-Comté</th> 
+             <th>Code ISO</th>
+             <th>Code INSEE</th>
+             <th>Superficie (km2)</th>
+             <th>Population 2020</th>
+             <th>Nombre</th>
+           </tr>
+       
+       
+           <tr>
+             <th>Nom</th> 
+             <th>Code ISO</th>
+             <th>Code INSEE</th>
+             <th>Superficie (km2)</th>
+             <th>Population 2020</th>
+             <th>Nombre</th>
+           </tr>
+           
+           <tr>
+             <th>Nom</th> 
+             <th>Code ISO</th>
+             <th>Code INSEE</th>
+             <th>Superficie (km2)</th>
+             <th>Population 2020</th>
+             <th>Nombre</th>
+           </tr>
+           
+           <tr>
+             <th>Nom</th> 
+             <th>Code ISO</th>
+             <th>Code INSEE</th>
+             <th>Superficie (km2)</th>
+             <th>Population 2020</th>
+             <th>Nombre</th>
+           </tr>
+           
+           </tbody>
+       </table> 
+        
+    </main>
+    <footer class="footer">
+        <p><a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" src="images/logo-3wa.png"></a></p>
+		<p>Ce matériel pédagogique est la propriété de la <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+    </footer>
+</body>
+</html>
