@@ -3,7 +3,6 @@
 * {
   background-color: rgba(0, 255, 0, 0.1);
   border: 2px solid black;
-  box-sizing: border-box;
 }
 
 html {
@@ -28,6 +27,20 @@ ul {
 
 li {
   list-style: none;
+  padding:10px;
 }
 
 /*********************** TON CODE ICI *************************/
+.main-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+ }

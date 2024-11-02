@@ -1,0 +1,128 @@
+/* *****************************************************************
+TOOLS
+***************************************************************** */
+* {
+  box-sizing: border-box; /* On spécifie que la largeur (width) de chaque boîte comprend le padding et la bordure (par défaut, c'est seulement la largeur du contenu) */
+}
+
+html {
+  font-size: 62.5%;/* 1rem = 10px (la formule est 10/16*100) la taille par défaut étant 16px */
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem; /* on remets la taille du texte par défaut pour le body à 16px en utilisant les rem comme unité) */
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+/* *****************************************************************
+TABLEAU 1
+***************************************************************** */
+.planning-hebdo th {
+  text-align: center;
+}
+.planning-hebdo {
+    border: 0.5rem solid darkred;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.planning-hebdo td,
+.planning-hebdo th {
+    border: 1px solid darkred;
+    padding: 0.5em;
+}
+.planning-hebdo thead,
+.planning-hebdo td:first-of-type {
+  background-color: goldenrod;
+  color:darkred;
+}
+.planning-hebdo td {
+  background-color: lightgoldenrodyellow;
+}
+.planning-hebdo .color-colspan {
+  background-color: lightgreen;
+}
+
+/* *****************************************************************
+TABLEAU 2
+***************************************************************** */
+
+.notes,
+.notes table {
+    border-collapse: collapse;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+.notes th {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: aquamarine;
+}
+.notes tbody tr:nth-child(odd) {
+  background-color: aquamarine;
+}
+
+.notes > tbody > tr > td:last-child {
+  text-align: right;
+}
+ 
+.notes tr,
+.notes td {
+    padding: 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+}
+.notes table tbody > tr:nth-child(odd) {
+  background-color: aqua;
+}
+
+.notes table tbody > tr:nth-child(even) {
+  background-color: antiquewhite;
+}
+/* *****************************************************************
+TABLEAU 3
+***************************************************************** */
+.inventaire {
+    border-collapse: collapse;
+    border: 2px solid navy;
+    margin: auto;
+    width: 100%;
+}
+.inventaire th,
+.inventaire tfoot {
+   background-color: navy;
+   color: white;
+}
+.inventaire th,
+.inventaire td {
+    padding: 1em;
+    border: 2px navy;
+}
+.inventaire th {
+  text-align: center;
+}
+
+.inventaire tbody td:nth-of-type(4) {
+  text-align: right;
+}
+.inventaire tbody td:nth-of-type(5) {
+  text-align: right;
+}
+.inventaire tbody td:nth-of-type(6) {
+  text-align: right;
+}
+.inventaire tbody tr:nth-child(odd) {
+  background-color: lightblue;
+}

@@ -30,33 +30,40 @@ li {
   list-style: none;
 }
 
-/****************************************************************/
+/*********************** TON CODE ICI *************************/
 .header {
   display: flex;
-  flex-direction: column;     /* pas utile*/
+  flex-direction: column;
 }
-
 .main-header {
+    display: flex;
+    justify-content: space-around;
+}
+  
+
+.main-nav {
   display: flex;
-  justify-content: space-around;  /* ok */
+  justify-content: flex-end;
 }
 
-.main-nav {                           /* fait pas pareil */
-  display: flex;
-  justify-content: flex-end; 
-}
-.main-nav ul {                        /* fait pas pareil */
+.main-nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
-.main-nav li {                         /* ok */
+
+.tool-items {
+    width: 30px;
+    flex-wrap: wrap;
+}
+.main-nav li {
   padding: 1em;
 }
-.tools {                              /* presque ok */                           
+
+.tools {
   width: 8em;
-  display: flex;    /* ok */
-  flex-wrap: wrap; /* ok */
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .tools-item {
